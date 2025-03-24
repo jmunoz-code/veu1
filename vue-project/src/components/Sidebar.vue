@@ -4,6 +4,7 @@
         <ul>
             <li><router-link to="/Contador">Contador</router-link></li>
             <li><router-link to="/ListaDeTareas">Lista De Tareas</router-link></li>
+            <li><router-link to="/registrar">Registrar</router-link></li>
         </ul>
     </div>
 </template>
