@@ -1,8 +1,8 @@
 <template>
   <!-- el componente llamada-->
   <MainView></MainView>
-  <Contador></Contador>
-  <ListaDeTareas></ListaDeTareas>
+   <!-- <Contador></Contador> -->
+    <!-- <ListaDeTareas></ListaDeTareas> -->
 </template>
 
 <script setup>

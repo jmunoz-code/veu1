@@ -1,9 +1,12 @@
-// main.js
-
+// main.js (o main.ts)
 import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router'; // Importa tu enrutador desde router.js
+import router from './router'; // Suponiendo que tienes un router
+import { createPinia } from 'pinia'; // Importa createPinia
 
-createApp(App)
-  .use(router) // Usa el enrutador
-  .mount('#app');
+const pinia = createPinia(); // Crea una instancia de Pinia
+const app = createApp(App);
+
+app.use(pinia); // Instala Pinia
+app.use(router);
+app.mount('#app');
