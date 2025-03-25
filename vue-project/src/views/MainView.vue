@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import Sidebar from '../components/Sidebar.vue';
+import Sidebar from '@/components/Sidebar.vue';
 </script>
 
 <style>
@@ -21,4 +21,6 @@ import Sidebar from '../components/Sidebar.vue';
     padding: 20px;
 }
 </style>
+
+
 
