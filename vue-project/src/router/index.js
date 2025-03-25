@@ -1,8 +1,7 @@
 // router.js
 import { createRouter, createWebHistory } from 'vue-router';
 import Contador from '../modules/contador/components/Contador.vue'; // Asegurate que esta ruta sea correcta
-
-import ListaDeTareas from '@/modules/listaDeTareas/components/ListaDeTareas.vue';
+import ListaDeTareas from '../modules/listaDeTareas/components/ListaDeTareas.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,6 +11,7 @@ const router = createRouter({
       name: 'contador',
       component: Contador,
     },
+   
     {
         path: '/ListaDetareas',
         name: 'ListaDeTareas',
